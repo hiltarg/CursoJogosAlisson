@@ -88,6 +88,7 @@ public class Jogo extends JPanel implements ActionListener {
 		}
 		g.setColor(Color.WHITE);
 		g.drawString("PONTOS : " + score, 5, 15);
+		g.drawString("Munição : "+ nave.getAmmo(), 5, 30);
 
 	}
 
